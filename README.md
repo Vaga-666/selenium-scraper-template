@@ -22,3 +22,4 @@ copy .env.example .env
 cp .env.example .env
 
 python src/scraper.py
+
