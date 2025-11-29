@@ -21,5 +21,10 @@ copy .env.example .env
 # Linux/Mac:
 cp .env.example .env
 
+## Environment variables
+- `HEADLESS=1` — run Chrome in headless mode
+- `USER_AGENT=` — optional custom user-agent
+- `START_URL=` — page to open
+
 python src/scraper.py
 
