@@ -25,6 +25,7 @@ def build_driver():
     return webdriver.Chrome(service=service, options=opts)
 
 
+
 def main():
     load_dotenv()
     start_url = os.getenv("START_URL", "https://example.com")
